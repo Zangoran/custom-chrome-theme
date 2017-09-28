@@ -1,9 +1,9 @@
 {
-	"manifest_version": 2,
+	"manifest_version": 1,
 
-	"name": "Material Incognito Dark Theme",
-	"description": "A theme that adds the dark Incognito Mode colour scheme to the normal mode of Chrome.",
-	"version": "3.0.0",
+	"name": "Zach-THEME",
+	"description": "",
+	"version": "1",
 
 	"theme": {
 		"images": {
@@ -18,19 +18,19 @@
 			"frame_inactive": [56, 59, 61],
 			"frame_incognito": [40, 43, 45],
 			"frame_incognito_inactive": [56, 59, 61],
-			"toolbar": [80, 80, 80],
-			"tab_text": [255, 255, 255],
-			"tab_background_text": [255, 255, 255],
-			"bookmark_text": [255, 255, 255],
-			"ntp_background": [48, 48, 48],
-			"ntp_text": [255, 255, 255]
+			"toolbar": [255, 87, 34],
+			"tab_text": [33, 33, 33],
+			"tab_background_text": [33, 33, 33],
+			"bookmark_text": [33, 33, 33],
+			"ntp_background": [33, 33, 33],
+			"ntp_text": [255, 87, 34]
 		},
 		"tints": {
-			"buttons": [0, 0, 0.85]
+			"buttons": [0, 0, 0.26]
 		},
 		"properties": {
-			"ntp_logo_alternate": 1,
-			"ntp_background_repeat": "repeat"
+			"ntp_background_alignment":"top",
+		 	"ntp_background_repeat":"no-repeat"
 		}
 	}
 }
